@@ -2015,6 +2015,695 @@ img {
 
 })();
 </script>
+
+    <!-- ==========================================
+     IND REAL GAMES — PREMIUM SHARE WIDGET
+=========================================== -->
+
+<div id="indShareRoot"
+     class="fixed bottom-5 right-4 sm:bottom-7 sm:right-7 z-[9990]">
+
+  <!-- FLOATING SHARE BUTTON -->
+  <button
+    id="indShareFab"
+    type="button"
+    aria-label="Share IND Real Games"
+    aria-expanded="false"
+    aria-controls="indShareModal"
+    class="group relative flex h-14 w-14 items-center justify-center
+           overflow-hidden rounded-full
+           border border-emerald-300/40
+           bg-gradient-to-br from-emerald-400 via-emerald-600 to-green-800
+           text-white
+           shadow-[0_8px_35px_rgba(16,185,129,0.30)]
+           transition-all duration-300
+           hover:scale-110 hover:shadow-[0_10px_45px_rgba(16,185,129,0.45)]
+           active:scale-95 focus:outline-none
+           focus-visible:ring-2 focus-visible:ring-emerald-400">
+
+    <span class="pointer-events-none absolute inset-0 rounded-full
+                 border border-white/20"></span>
+
+    <span class="pointer-events-none absolute -left-full top-0 h-full w-1/2
+                 -skew-x-12 bg-gradient-to-r from-transparent
+                 via-white/20 to-transparent
+                 transition-all duration-700 group-hover:left-[150%]"></span>
+
+    <span class="pointer-events-none absolute inset-0 rounded-full
+                 bg-emerald-300/20 animate-ping"
+          style="animation-duration:2.8s"></span>
+
+    <svg class="relative z-10 h-6 w-6 transition-transform duration-300
+                group-hover:rotate-12"
+         viewBox="0 0 24 24"
+         fill="none"
+         stroke="currentColor"
+         stroke-width="1.8"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         aria-hidden="true">
+      <circle cx="18" cy="5" r="3"></circle>
+      <circle cx="6" cy="12" r="3"></circle>
+      <circle cx="18" cy="19" r="3"></circle>
+      <path d="m8.7 10.7 6.6-4.1M8.7 13.3l6.6 4.1"></path>
+    </svg>
+  </button>
+
+
+  <!-- PREMIUM SHARE MODAL -->
+  <section
+    id="indShareModal"
+    role="dialog"
+    aria-label="Share IND Real Games"
+    aria-modal="true"
+    aria-hidden="true"
+    class="absolute bottom-[72px] right-0 hidden
+           w-[min(340px,calc(100vw-32px))]
+           overflow-hidden rounded-[24px]
+           border border-emerald-400/20
+           bg-[#0a1211]/[0.98] text-slate-100
+           shadow-[0_25px_90px_rgba(0,0,0,0.65)]
+           backdrop-blur-2xl">
+
+    <!-- TOP ACCENT -->
+    <div class="h-[2px] w-full
+                bg-gradient-to-r from-transparent
+                via-emerald-400 to-transparent"></div>
+
+    <!-- HEADER -->
+    <div class="flex items-center justify-between gap-3
+                border-b border-white/[0.07] px-4 py-4">
+
+      <div class="flex min-w-0 items-center gap-3">
+
+        <div class="flex h-11 w-11 shrink-0 items-center justify-center
+                    rounded-2xl border border-emerald-400/20
+                    bg-gradient-to-br from-emerald-400/15 to-green-900/20
+                    text-emerald-300">
+
+          <svg class="h-5 w-5"
+               viewBox="0 0 24 24"
+               fill="none"
+               stroke="currentColor"
+               stroke-width="1.8"
+               stroke-linecap="round"
+               stroke-linejoin="round"
+               aria-hidden="true">
+            <circle cx="18" cy="5" r="3"></circle>
+            <circle cx="6" cy="12" r="3"></circle>
+            <circle cx="18" cy="19" r="3"></circle>
+            <path d="m8.7 10.7 6.6-4.1M8.7 13.3l6.6 4.1"></path>
+          </svg>
+        </div>
+
+        <div class="min-w-0">
+          <h3 class="text-[14px] font-extrabold tracking-wide text-white">
+            Share & Discover
+          </h3>
+
+          <p class="mt-1 text-[10px] font-medium text-slate-400">
+            Share the gaming experience
+          </p>
+        </div>
+      </div>
+
+      <button
+        id="indShareClose"
+        type="button"
+        aria-label="Close share menu"
+        class="flex h-8 w-8 shrink-0 items-center justify-center
+               rounded-xl border border-white/[0.07]
+               bg-white/[0.035] text-slate-400
+               transition hover:border-red-400/30
+               hover:bg-red-400/10 hover:text-red-300
+               focus:outline-none focus-visible:ring-2
+               focus-visible:ring-emerald-400">
+
+        <svg class="h-4 w-4"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             aria-hidden="true">
+          <path d="m18 6-12 12M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+
+    <!-- BRAND BANNER -->
+    <div class="mx-4 mt-4 overflow-hidden rounded-2xl
+                border border-emerald-400/15
+                bg-gradient-to-br from-emerald-500/[0.12]
+                via-slate-900/40 to-transparent p-3.5">
+
+      <div class="flex items-center gap-3">
+
+        <div class="flex h-10 w-10 shrink-0 items-center justify-center
+                    rounded-xl border border-emerald-400/20
+                    bg-[#07110e] text-[11px] font-black leading-tight
+                    text-emerald-300">
+          IND
+        </div>
+
+        <div class="min-w-0 flex-1">
+          <p class="text-[12px] font-extrabold tracking-wide text-white">
+            IND REAL GAMES
+          </p>
+
+          <p class="mt-1 text-[10px] leading-relaxed text-slate-400">
+            Discover games. Share with friends.
+          </p>
+        </div>
+
+        <span class="shrink-0 rounded-full border border-emerald-400/20
+                     bg-emerald-400/[0.08] px-2 py-1
+                     text-[9px] font-bold uppercase tracking-wider
+                     text-emerald-300">
+          SHARE
+        </span>
+      </div>
+    </div>
+
+
+    <!-- SHARE OPTIONS -->
+    <div class="px-4 pb-4 pt-4">
+
+      <p class="mb-3 text-[10px] font-bold uppercase tracking-[0.16em]
+                text-slate-500">
+        Choose a platform
+      </p>
+
+      <div class="grid grid-cols-3 gap-2.5">
+
+        <!-- WHATSAPP -->
+        <button
+          type="button"
+          data-share="whatsapp"
+          class="group flex min-w-0 flex-col items-center gap-2
+                 rounded-2xl border border-white/[0.07]
+                 bg-white/[0.025] px-1.5 py-3
+                 transition-all duration-200
+                 hover:border-emerald-400/30 hover:bg-emerald-400/[0.07]
+                 active:scale-95">
+
+          <span class="flex h-10 w-10 items-center justify-center
+                       rounded-xl border border-emerald-400/15
+                       bg-emerald-400/[0.09] text-emerald-400
+                       transition-transform duration-200
+                       group-hover:scale-110">
+
+            <svg class="h-5 w-5"
+                 viewBox="0 0 24 24"
+                 fill="currentColor"
+                 aria-hidden="true">
+              <path d="M20.52 3.48A11.85 11.85 0 0 0 12.08 0C5.5 0 .15 5.35.15 11.93c0 2.1.55 4.15 1.6 5.96L0 24l6.27-1.64a11.9 11.9 0 0 0 5.8 1.48h.01C18.66 23.84 24 18.49 24 11.92a11.85 11.85 0 0 0-3.48-8.44ZM12.08 21.8a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.72.97.99-3.63-.24-.37a9.85 9.85 0 0 1-1.51-5.25c0-5.45 4.44-9.89 9.9-9.89a9.83 9.83 0 0 1 7 2.9 9.83 9.83 0 0 1 2.89 7c0 5.46-4.44 9.9-9.9 9.9Zm5.43-7.41c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.47-.89-.79-1.49-1.77-1.66-2.06-.17-.3-.02-.46.13-.61.14-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.87 1.22 3.07c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.7.62.71.23 1.36.2 1.87.12.57-.08 1.77-.72 2.02-1.41.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.35Z"/>
+            </svg>
+          </span>
+
+          <span class="text-[10px] font-bold text-slate-300">
+            WhatsApp
+          </span>
+        </button>
+
+
+        <!-- TELEGRAM -->
+        <button
+          type="button"
+          data-share="telegram"
+          class="group flex min-w-0 flex-col items-center gap-2
+                 rounded-2xl border border-white/[0.07]
+                 bg-white/[0.025] px-1.5 py-3
+                 transition-all duration-200
+                 hover:border-sky-400/30 hover:bg-sky-400/[0.07]
+                 active:scale-95">
+
+          <span class="flex h-10 w-10 items-center justify-center
+                       rounded-xl border border-sky-400/15
+                       bg-sky-400/[0.09] text-sky-400
+                       transition-transform duration-200
+                       group-hover:scale-110">
+
+            <svg class="h-5 w-5"
+                 viewBox="0 0 24 24"
+                 fill="currentColor"
+                 aria-hidden="true">
+              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0Zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.26.26-.534.26l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953l11.57-4.461c.539-.196 1.006.128.832 2.941Z"/>
+            </svg>
+          </span>
+
+          <span class="text-[10px] font-bold text-slate-300">
+            Telegram
+          </span>
+        </button>
+
+
+        <!-- NATIVE SHARE -->
+        <button
+          type="button"
+          data-share="native"
+          class="group flex min-w-0 flex-col items-center gap-2
+                 rounded-2xl border border-white/[0.07]
+                 bg-white/[0.025] px-1.5 py-3
+                 transition-all duration-200
+                 hover:border-amber-400/30 hover:bg-amber-400/[0.07]
+                 active:scale-95">
+
+          <span class="flex h-10 w-10 items-center justify-center
+                       rounded-xl border border-amber-400/15
+                       bg-amber-400/[0.09] text-amber-300
+                       transition-transform duration-200
+                       group-hover:scale-110">
+
+            <svg class="h-5 w-5"
+                 viewBox="0 0 24 24"
+                 fill="none"
+                 stroke="currentColor"
+                 stroke-width="1.8"
+                 stroke-linecap="round"
+                 stroke-linejoin="round"
+                 aria-hidden="true">
+              <circle cx="18" cy="5" r="3"></circle>
+              <circle cx="6" cy="12" r="3"></circle>
+              <circle cx="18" cy="19" r="3"></circle>
+              <path d="m8.7 10.7 6.6-4.1M8.7 13.3l6.6 4.1"></path>
+            </svg>
+          </span>
+
+          <span class="text-[10px] font-bold text-slate-300">
+            More
+          </span>
+        </button>
+
+      </div>
+    </div>
+
+
+    <!-- LINK COPY SECTION -->
+    <div class="border-t border-white/[0.07] bg-black/20 p-4">
+
+      <div class="mb-2.5 flex items-center justify-between gap-2">
+        <label for="indShareURL"
+               class="text-[10px] font-bold uppercase tracking-[0.14em]
+                      text-slate-400">
+          Website link
+        </label>
+
+        <span class="flex items-center gap-1.5 text-[9px]
+                     font-semibold text-emerald-400">
+          <span class="h-1.5 w-1.5 rounded-full bg-emerald-400"></span>
+          READY TO SHARE
+        </span>
+      </div>
+
+      <div class="flex items-center gap-2 rounded-xl
+                  border border-white/[0.08] bg-[#050a09] p-1.5">
+
+        <input
+          id="indShareURL"
+          type="text"
+          readonly
+          aria-label="Website URL"
+          value=""
+          class="min-w-0 flex-1 bg-transparent px-2 py-2
+                 text-[11px] font-medium text-slate-300
+                 outline-none selection:bg-emerald-500/30"
+        >
+
+        <button
+          id="indCopyShareURL"
+          type="button"
+          class="flex shrink-0 items-center justify-center gap-1.5
+                 rounded-lg border border-emerald-400/20
+                 bg-gradient-to-b from-emerald-500 to-emerald-700
+                 px-3 py-2 text-[10px] font-extrabold text-white
+                 shadow-lg shadow-emerald-950/30
+                 transition-all hover:brightness-110 active:scale-95">
+
+          <svg class="h-3.5 w-3.5"
+               viewBox="0 0 24 24"
+               fill="none"
+               stroke="currentColor"
+               stroke-width="2"
+               stroke-linecap="round"
+               stroke-linejoin="round"
+               aria-hidden="true">
+            <rect x="8" y="8" width="13" height="13" rx="2"></rect>
+            <path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"></path>
+          </svg>
+
+          COPY
+        </button>
+      </div>
+
+      <p class="mt-3 text-center text-[9px] leading-relaxed text-slate-500">
+        Share the official website with your friends.
+      </p>
+    </div>
+
+  </section>
+</div>
+
+
+<!-- PREMIUM TOAST -->
+<div
+  id="indShareToast"
+  role="status"
+  aria-live="polite"
+  class="pointer-events-none fixed bottom-5 left-1/2 z-[10000]
+         -translate-x-1/2 translate-y-3
+         rounded-xl border border-emerald-400/25
+         bg-[#091713]/95 px-4 py-3
+         text-center text-xs font-bold text-emerald-300
+         opacity-0 shadow-2xl shadow-black/30
+         backdrop-blur-xl transition-all duration-300">
+</div>
+    <script>/* ==========================================
+   IND REAL GAMES — PREMIUM SHARE ENGINE
+   Version 3.0
+   Vanilla JS | No external dependencies
+=========================================== */
+
+(() => {
+  "use strict";
+
+  const root = document.getElementById("indShareRoot");
+  const modal = document.getElementById("indShareModal");
+
+  if (!root || !modal || root.dataset.initialized === "true") {
+    return;
+  }
+
+  root.dataset.initialized = "true";
+
+  const fab = document.getElementById("indShareFab");
+  const closeBtn = document.getElementById("indShareClose");
+  const urlInput = document.getElementById("indShareURL");
+  const copyBtn = document.getElementById("indCopyShareURL");
+  const toast = document.getElementById("indShareToast");
+
+  let toastTimer;
+  let closeTimer;
+  let previousFocus = null;
+
+  const reducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  );
+
+  // CURRENT WEBSITE INFORMATION
+  function getURL() {
+    return window.location.href;
+  }
+
+  function getTitle() {
+    return document.title || "IND Real Games";
+  }
+
+  function getDescription() {
+    return "Discover games on IND Real Games Store.";
+  }
+
+  function getShareMessage() {
+    return `${getTitle()}\n\n${getDescription()}\n\n${getURL()}`;
+  }
+
+  // PREMIUM TOAST
+  function notify(message, type = "success") {
+    if (!toast) return;
+
+    clearTimeout(toastTimer);
+
+    toast.textContent = message;
+
+    toast.classList.toggle(
+      "text-red-300",
+      type === "error"
+    );
+
+    toast.classList.toggle(
+      "text-emerald-300",
+      type !== "error"
+    );
+
+    toast.classList.remove("opacity-0", "translate-y-3");
+    toast.classList.add("opacity-100", "translate-y-0");
+
+    toastTimer = setTimeout(() => {
+      toast.classList.add("opacity-0", "translate-y-3");
+      toast.classList.remove("opacity-100", "translate-y-0");
+    }, 2400);
+  }
+
+  // SYNC CURRENT URL
+  function syncURL() {
+    if (urlInput) {
+      urlInput.value = getURL();
+    }
+  }
+
+  // OPEN MODAL
+  function openModal() {
+    clearTimeout(closeTimer);
+
+    previousFocus = document.activeElement;
+
+    syncURL();
+
+    modal.classList.remove("hidden");
+    modal.setAttribute("aria-hidden", "false");
+    modal.setAttribute("aria-modal", "true");
+
+    fab.setAttribute("aria-expanded", "true");
+
+    if (reducedMotion.matches) {
+      modal.style.opacity = "1";
+      modal.style.transform = "none";
+    } else {
+      modal.style.opacity = "0";
+      modal.style.transform = "translateY(12px) scale(.97)";
+
+      requestAnimationFrame(() => {
+        modal.style.opacity = "1";
+        modal.style.transform = "translateY(0) scale(1)";
+      });
+    }
+
+    closeBtn?.focus({ preventScroll: true });
+  }
+
+  // CLOSE MODAL
+  function closeModal(restoreFocus = true) {
+    if (modal.classList.contains("hidden")) return;
+
+    modal.setAttribute("aria-hidden", "true");
+    modal.setAttribute("aria-modal", "false");
+
+    fab.setAttribute("aria-expanded", "false");
+
+    modal.style.opacity = "0";
+    modal.style.transform = reducedMotion.matches
+      ? "none"
+      : "translateY(8px) scale(.98)";
+
+    clearTimeout(closeTimer);
+
+    closeTimer = setTimeout(() => {
+      modal.classList.add("hidden");
+
+      if (
+        restoreFocus &&
+        previousFocus &&
+        typeof previousFocus.focus === "function"
+      ) {
+        fab.focus({ preventScroll: true });
+      }
+    }, reducedMotion.matches ? 0 : 220);
+  }
+
+  // FLOATING BUTTON
+  fab.addEventListener("click", () => {
+    if (modal.classList.contains("hidden")) {
+      openModal();
+    } else {
+      closeModal();
+    }
+  });
+
+  closeBtn.addEventListener("click", () => {
+    closeModal();
+  });
+
+  // CLIPBOARD WITH FALLBACK
+  async function copyText(text) {
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+        return true;
+      }
+
+      const textarea = document.createElement("textarea");
+
+      textarea.value = text;
+      textarea.readOnly = true;
+
+      textarea.style.position = "fixed";
+      textarea.style.left = "-9999px";
+      textarea.style.top = "0";
+
+      document.body.appendChild(textarea);
+
+      textarea.select();
+      textarea.setSelectionRange(0, textarea.value.length);
+
+      const success = document.execCommand("copy");
+
+      textarea.remove();
+
+      return success;
+    } catch (error) {
+      console.error("Clipboard error:", error);
+      return false;
+    }
+  }
+
+  // COPY CURRENT WEBSITE LINK
+  copyBtn.addEventListener("click", async () => {
+    const originalHTML = copyBtn.innerHTML;
+
+    copyBtn.disabled = true;
+
+    const success = await copyText(getURL());
+
+    if (success) {
+      copyBtn.innerHTML = "✓ COPIED";
+      notify("✓ Website link copied successfully!");
+    } else {
+      notify("Copy failed. Please copy the link manually.", "error");
+    }
+
+    setTimeout(() => {
+      copyBtn.innerHTML = originalHTML;
+      copyBtn.disabled = false;
+    }, 1500);
+  });
+
+  // SHARE ACTIONS
+  modal.querySelectorAll("[data-share]").forEach(button => {
+    button.addEventListener("click", async () => {
+      const platform = button.dataset.share;
+
+      const url = getURL();
+      const title = getTitle();
+      const message = getShareMessage();
+
+      let target = "";
+
+      if (platform === "whatsapp") {
+        target =
+          "https://api.whatsapp.com/send?text=" +
+          encodeURIComponent(message);
+      }
+
+      if (platform === "telegram") {
+        target =
+          "https://t.me/share/url?url=" +
+          encodeURIComponent(url) +
+          "&text=" +
+          encodeURIComponent(title);
+      }
+
+      if (platform === "native") {
+        if (navigator.share) {
+          try {
+            await navigator.share({
+              title,
+              text: getDescription(),
+              url
+            });
+          } catch (error) {
+            if (error.name !== "AbortError") {
+              notify("Unable to open sharing options.", "error");
+            }
+          }
+
+          return;
+        }
+
+        const success = await copyText(url);
+
+        notify(
+          success
+            ? "✓ Link copied! Share it anywhere."
+            : "Unable to copy link.",
+          success ? "success" : "error"
+        );
+
+        return;
+      }
+
+      if (target) {
+        const shareWindow = window.open(
+          target,
+          "_blank",
+          "noopener,noreferrer"
+        );
+
+        if (!shareWindow) {
+          window.location.assign(target);
+        }
+      }
+    });
+  });
+
+  // OUTSIDE CLICK
+  document.addEventListener("click", event => {
+    if (
+      !modal.classList.contains("hidden") &&
+      !root.contains(event.target)
+    ) {
+      closeModal(false);
+    }
+  });
+
+  // ESCAPE KEY
+  document.addEventListener("keydown", event => {
+    if (
+      event.key === "Escape" &&
+      !modal.classList.contains("hidden")
+    ) {
+      closeModal();
+    }
+  });
+
+  // REDUCED MOTION SUPPORT
+  modal.style.transition =
+    reducedMotion.matches
+      ? "none"
+      : "opacity 220ms ease, transform 220ms ease";
+
+  // INITIALIZE
+  syncURL();
+
+  // OPTIONAL CONTROL FROM OTHER SCRIPTS
+  window.INDPremiumShare = Object.freeze({
+    open: openModal,
+    close: closeModal,
+    copy: async () => {
+      const success = await copyText(getURL());
+
+      notify(
+        success
+          ? "✓ Website link copied successfully!"
+          : "Copy failed.",
+        success ? "success" : "error"
+      );
+
+      return success;
+    }
+  });
+
+})();</script>
 </body>
 </html>
 
